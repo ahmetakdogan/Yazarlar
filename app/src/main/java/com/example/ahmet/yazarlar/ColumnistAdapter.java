@@ -29,7 +29,6 @@ public class ColumnistAdapter extends BaseAdapter {
         this.c = c;
         mInflater = LayoutInflater.from(c);
         this.arrayListYazarlar=arrayListYazarlar;
-
     }
 
     @Override
