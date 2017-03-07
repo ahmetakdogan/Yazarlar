@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:weightSum="1"
+        android:layout_weight="0.21">
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:layout_weight="0.80" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingLeft="20px"
+            android:layout_width="254dp"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_weight="0.34">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingTop="18px"
+                    android:id="@+id/txtName"
+                    android:layout_weight="1"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:layout_width="99dp"
+                    android:layout_height="match_parent"
+                    android:paddingTop="18px"
+                    android:paddingLeft="20px"
+                    android:id="@+id/txtNews"
+                    android:typeface="serif"
+                    android:fontFamily="serif-monospace" />
+            </LinearLayout>
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTitle"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal|italic"
+                android:textColor="?android:attr/textColorHint" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
